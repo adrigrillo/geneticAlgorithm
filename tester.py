@@ -8,14 +8,14 @@ def getfitness(chromosome):
     return urllib2.urlopen(petition).read()
 
 def evaluator(poblacion):
-    aux = 1000000
+    aux = getfitness(poblacion[0])
     bina_aux = '0'
     fitness = 0
     for i in range(0, len(poblacion)):
             fitness = getfitness(poblacion[i])
             print ("aux " + str(aux) + " fitness = " + str(fitness))
-            if aux > fitness:
-                    print("hola")
+            if (fitness < aux):
+                    print ("WOLOLO " + str(aux) + " fHEHEHE = " + str(fitness))
                     aux = fitness
                     bina_aux = poblacion[i]
     return bina_aux, aux
