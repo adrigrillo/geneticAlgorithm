@@ -3,6 +3,8 @@
 import itertools
 import random
 
+# CREADOR DE POBLACIONES, DEVUELVE UNA LISTA FORMADA POR numIndividuos ELEMENTOS DE CONCATENACIONES DE 4 CADENAS BINARIAS DE 16 BITS ALEATORIAS
+
 
 def generarPoblacion(numIndividuos):
     lst = list(itertools.product([0, 1], repeat=16))

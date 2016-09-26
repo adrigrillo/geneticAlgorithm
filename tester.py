@@ -5,9 +5,14 @@ import urllib2
 from decimal import *
 
 
+# FUNCIÓN DE PETICIÓN DE EVALUACIÓN A LA PÁGINA OFRECIDA POR EL ENUNCIADO DE LA PRÁCTICA
+
+
 def getfitness(chromosome):
     petition = "http://163.117.164.230/age/?f=test&c=" + chromosome
     return urllib2.urlopen(petition).read()
+
+# FUNCIÓN DE EVALUACIÓN, RECOGE A poblacion Y BUSCA EL MEJOR CON LA AYUDA DE getfitness
 
 
 def evaluator(poblacion):
