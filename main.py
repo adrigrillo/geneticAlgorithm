@@ -23,10 +23,10 @@ def main():
         start = time.time()
         contador = contador + 1
         print contador
-        print nuevaPoblacion
         mejor = evaluator(nuevaPoblacion)
         print mejor
         nuevaPoblacion = torneo(nuevaPoblacion)
+        print nuevaPoblacion
         nuevaPoblacion = cruce(nuevaPoblacion)
         stop = time.time()
         print(stop - start)
