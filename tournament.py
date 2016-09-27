@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-from generator import *
 from tester import *
-from decimal import *
-import itertools
 import random
 
 # FUNCIÓN DEL TORNEO DE ELEMENTOS DE UNA POBLACIÓN, COGE A 4 AL AZAR DE poblacion, EVALUA AL MEJOR Y LO METE EN LA poblacionNueva

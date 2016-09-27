@@ -1,12 +1,8 @@
 #!/usr/local/bin/python
 # -*- coding: utf-8 -*-
 from generator import *
-from tester import *
-from decimal import *
 from tournament import *
 from crossMutation import *
-import itertools
-import random
 import time
 
 # COSAS A ARREGLAR, MIRAR EL PORQUÉ DE LA PARADA EN LA ITERACION 51, Y ESTUDIAR A PARTIR DE LA ITERACIÓN 16 DEJA DE OPTIMIZAR
@@ -27,6 +23,7 @@ def main():
         start = time.time()
         contador = contador + 1
         print contador
+        print nuevaPoblacion
         mejor = evaluator(nuevaPoblacion)
         print mejor
         nuevaPoblacion = torneo(nuevaPoblacion)

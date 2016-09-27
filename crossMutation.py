@@ -1,7 +1,5 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-from generator import *
-import itertools
 import random
 
 

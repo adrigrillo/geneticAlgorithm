@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-from generator import *
 import urllib2
 from decimal import *
 
