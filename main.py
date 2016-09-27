@@ -26,7 +26,6 @@ def main():
         mejor = evaluator(nuevaPoblacion)
         print mejor
         nuevaPoblacion = torneo(nuevaPoblacion)
-        print nuevaPoblacion
         nuevaPoblacion = cruce(nuevaPoblacion)
         stop = time.time()
         print(stop - start)

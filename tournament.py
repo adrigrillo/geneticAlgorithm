@@ -9,7 +9,6 @@ import random
 def torneo(poblacion):
     poblacionNueva = []
     jugadores = []
-    print "Longitud de la poblacion", len(poblacion)
     for i in range(0, len(poblacion)):
         jugadores.append(poblacion[random.randint(0, len(poblacion) - 1)])
         jugadores.append(poblacion[random.randint(0, len(poblacion) - 1)])

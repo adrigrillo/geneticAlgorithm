@@ -7,9 +7,10 @@ import random
 
 
 def cruce(poblacion):
+    print "Longitud de la poblacion antes de reproducir ", len(poblacion)
     i = 0
     poblacionNueva = []
-    while (i < len(poblacion) - 2):
+    while (i < len(poblacion)):
         descendiente0 = ''
         descendiente1 = ''
         padre0 = poblacion[i]
@@ -25,6 +26,7 @@ def cruce(poblacion):
         poblacionNueva.append(descendiente0)
         poblacionNueva.append(descendiente1)
         i = i + 2
+    print "Longitud de la poblacion nueva ", len(poblacionNueva)
     return poblacionNueva
 
 
