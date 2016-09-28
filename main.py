@@ -17,6 +17,7 @@ def main():
     print mejor
     nuevaPoblacion = torneo(poblacion)
     nuevaPoblacion = cruce(nuevaPoblacion)
+    nuevaPoblacion = mutacion(nuevaPoblacion)
     stop = time.time()
     print(stop - start)
     for i in range(0, 999):
@@ -27,6 +28,7 @@ def main():
         print mejor
         nuevaPoblacion = torneo(nuevaPoblacion)
         nuevaPoblacion = cruce(nuevaPoblacion)
+        nuevaPoblacion = mutacion(nuevaPoblacion)
         stop = time.time()
         print(stop - start)
 
