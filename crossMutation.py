@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
+from generator import *
 import random
+import sys
 
 
 # ESTA FUNCION CRUZA (ALEATORIAMENTE) CROMOSOMA A CROMOSOMA LOS PADRES PARA FORMAR LA MISMA CANTIDAD DE DESCENDIENTES
@@ -32,11 +34,14 @@ def cruce(poblacion):
 
 
 def mutacion(poblacion):
+    poblacionNueva = []
     for i in range(0, len(poblacion)):
+        auxPoblacion = str(poblacion[i])
         for j in range(0, 64):
-            aux = random.randint(0, 10)
-            if (aux == 0 and poblacion[i][j] == 0):
-                poblacion[i][j] = 1
-            elif (aux == 0 and poblacion[i][j] == 1):
-                poblacion[i][j] = 0
-    return poblacion
+            aux = random.randint(0, 100)
+            if (aux == 0 and auxPoblacion[j] == '0'):
+                auxPoblacion = auxPoblacion[:j] + '1' + auxPoblacion[j + 1:]
+            elif (aux == 0 and auxPoblacion[j] == '1'):
+                auxPoblacion = auxPoblacion[:j] + '0' + auxPoblacion[j + 1:]
+        poblacionNueva.append(auxPoblacion)
+    return poblacionNueva
