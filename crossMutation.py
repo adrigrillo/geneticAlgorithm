@@ -26,7 +26,7 @@ def cruce(poblacion):
                 descendiente1 = descendiente1 + padre1[j]
         poblacionNueva.append(descendiente0)
         poblacionNueva.append(descendiente1)
-        i = i + 2
+        i += 2
     return poblacionNueva
 
 

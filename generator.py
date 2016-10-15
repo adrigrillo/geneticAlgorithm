@@ -3,18 +3,16 @@
 import itertools
 import random
 
-# CREADOR DE POBLACIONES, DEVUELVE UNA LISTA FORMADA POR numIndividuos ELEMENTOS DE CONCATENACIONES DE 4 CADENAS BINARIAS DE 16 BITS ALEATORIAS
+""" CREADOR DE POBLACIONES, DEVUELVE UNA LISTA FORMADA POR numIndividuos INDIVIDUOS, ESTOS ESTAN FORMADOS POR 384
+    BITS QUE REPRESENTAN 24 ESTACIONES DE 16 SENSORES """
 
 
 def generarPoblacion(numIndividuos):
-    lst = list(itertools.product([0, 1], repeat=16))
-    generador = []
-    for i in range(0, numIndividuos):
-        generador.append(lst[random.randint(0, pow(2, 16) - 1)] + lst[random.randint(0, pow(2, 16) - 1)] + lst[random.randint(0, pow(2, 16) - 1)] + lst[random.randint(0, pow(2, 16) - 1)])
+    sensores = ['0', 'F', 'H']
     poblacion = []
-    for i in range(0, numIndividuos):
-        cromosoma = ""
-        for j in range(0, 64):
-            cromosoma += str(generador[i][j])
-        poblacion.append(cromosoma)
+    for i in range(numIndividuos):
+        individuo = []
+        for j in range(384):
+            individuo.append(random.choice(sensores))
+        poblacion.append(individuo)
     return poblacion

@@ -22,7 +22,7 @@ def main():
     print(stop - start)
     for i in range(0, 999):
         start = time.time()
-        contador = contador + 1
+        contador += 1
         print contador
         mejor = evaluator(nuevaPoblacion)
         print mejor

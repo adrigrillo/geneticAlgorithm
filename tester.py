@@ -8,7 +8,7 @@ from decimal import *
 
 
 def getfitness(chromosome):
-    petition = "http://163.117.164.230/age/?f=test&c=" + chromosome
+    petition = "http://163.117.164.219/age/alfa?c=" + chromosome
     return urllib2.urlopen(petition).read()
 
 # FUNCIÓN DE EVALUACIÓN, RECOGE A poblacion Y BUSCA EL MEJOR CON LA AYUDA DE getfitness
