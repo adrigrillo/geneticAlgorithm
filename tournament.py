@@ -3,7 +3,8 @@
 from tester import *
 import random
 
-# FUNCIÓN DEL TORNEO DE ELEMENTOS DE UNA POBLACIÓN, COGE A 4 AL AZAR DE poblacion, EVALUA AL MEJOR Y LO METE EN LA poblacionNueva
+""" FUNCIÓN DEL TORNEO DE ELEMENTOS DE UNA POBLACIÓN, COGE A 4 AL AZAR DE poblacion,
+    EVALUA AL MEJOR Y LO METE EN LA poblacionNueva """
 
 
 def torneo(poblacion):

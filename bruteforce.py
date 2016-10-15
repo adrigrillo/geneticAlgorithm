@@ -38,7 +38,7 @@ def add(x, y):
             result = ('1' if r % 2 == 1 else '0') + result
             carry = 0 if r < 2 else 1
 
-        if carry ! = 0:
+        if carry != 0:
             result = '1' + result
 
         return result.zfill(maxlen)
@@ -47,7 +47,7 @@ anterior = 0
 aux = 0
 bina_aux = '0'
 fitness = 0
-for i in range(0, (100000)):
+for i in range(100000):
         bina = add('1', bina)
         fitness = getfitness(bina)
         print (fitness)

@@ -17,10 +17,9 @@ def getfitness(chromosome):
 def evaluator(poblacion):
     aux = getfitness(poblacion[0])
     bina_aux = poblacion[0]
-    fitness = 0
     for i in range(len(poblacion)):
         fitness = getfitness(poblacion[i])
-        if (Decimal(fitness) < Decimal(aux)):
+        if Decimal(fitness) < Decimal(aux):
             aux = fitness
             bina_aux = poblacion[i]
     return bina_aux, aux

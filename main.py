@@ -5,8 +5,6 @@ from tournament import *
 from crossMutation import *
 import time
 
-# COSAS A ARREGLAR, MIRAR EL PORQUÉ DE LA PARADA EN LA ITERACION 51, Y ESTUDIAR A PARTIR DE LA ITERACIÓN 16 DEJA DE OPTIMIZAR
-
 
 def main():
     start = time.time()
