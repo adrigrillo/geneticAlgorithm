@@ -2,7 +2,6 @@
 # -*- coding: utf-8 -*-
 from generator import *
 import random
-import sys
 
 
 # ESTA FUNCION CRUZA (ALEATORIAMENTE) CROMOSOMA A CROMOSOMA LOS PADRES PARA FORMAR LA MISMA CANTIDAD DE DESCENDIENTES
@@ -16,7 +15,7 @@ def cruce(poblacion):
         descendiente1 = ''
         padre0 = poblacion[i]
         padre1 = poblacion[i + 1]
-        for j in range(0, 64):
+        for j in range(384):
             aux = random.randint(0, 1)
             if aux == 0:
                 descendiente0 = descendiente0 + padre0[j]
@@ -37,11 +36,16 @@ def mutacion(poblacion):
     poblacionNueva = []
     for i in range(0, len(poblacion)):
         auxPoblacion = str(poblacion[i])
-        for j in range(0, 64):
+        for j in range(384):
             aux = random.randint(0, 100)
             if aux == 0 and auxPoblacion[j] == '0':
-                auxPoblacion = auxPoblacion[:j] + '1' + auxPoblacion[j + 1:]
-            elif aux == 0 and auxPoblacion[j] == '1':
-                auxPoblacion = auxPoblacion[:j] + '0' + auxPoblacion[j + 1:]
+                sensores = ['F', 'H']
+                auxPoblacion = auxPoblacion[:j] + random.choice(sensores) + auxPoblacion[j + 1:]
+            elif aux == 0 and auxPoblacion[j] == 'F':
+                sensores = ['0', 'H']
+                auxPoblacion = auxPoblacion[:j] + random.choice(sensores) + auxPoblacion[j + 1:]
+            elif aux == 0 and auxPoblacion[j] == 'H':
+                sensores = ['0', 'F']
+                auxPoblacion = auxPoblacion[:j] + random.choice(sensores) + auxPoblacion[j + 1:]
         poblacionNueva.append(auxPoblacion)
     return poblacionNueva
