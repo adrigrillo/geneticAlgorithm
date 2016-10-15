@@ -8,7 +8,7 @@ from decimal import *
 
 
 def getfitness(chromosome):
-    petition = "http://163.117.164.219/age/alfa?c=" + chromosome
+    petition = "http://163.117.164.219/age/alfa?c=" + ''.join(chromosome)
     return urllib2.urlopen(petition).read()
 
 # FUNCIÓN DE EVALUACIÓN, RECOGE A poblacion Y BUSCA EL MEJOR CON LA AYUDA DE getfitness
@@ -18,7 +18,7 @@ def evaluator(poblacion):
     aux = getfitness(poblacion[0])
     bina_aux = poblacion[0]
     fitness = 0
-    for i in range(0, len(poblacion)):
+    for i in range(len(poblacion)):
         fitness = getfitness(poblacion[i])
         if (Decimal(fitness) < Decimal(aux)):
             aux = fitness

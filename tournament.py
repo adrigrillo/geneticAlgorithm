@@ -9,11 +9,11 @@ import random
 def torneo(poblacion):
     poblacionNueva = []
     jugadores = []
-    for i in range(0, len(poblacion)):
-        jugadores.append(poblacion[random.randint(0, len(poblacion) - 1)])
-        jugadores.append(poblacion[random.randint(0, len(poblacion) - 1)])
-        jugadores.append(poblacion[random.randint(0, len(poblacion) - 1)])
-        jugadores.append(poblacion[random.randint(0, len(poblacion) - 1)])
+    for i in range(len(poblacion)):
+        jugadores.append(poblacion[random.randint(len(poblacion) - 1)])
+        jugadores.append(poblacion[random.randint(len(poblacion) - 1)])
+        jugadores.append(poblacion[random.randint(len(poblacion) - 1)])
+        jugadores.append(poblacion[random.randint(len(poblacion) - 1)])
         ganador = evaluator(jugadores)
         poblacionNueva.append(ganador[0])
         del jugadores[:]
