@@ -8,7 +8,7 @@ import random
 
 
 def generarPoblacion(numIndividuos):
-    sensores = ['0', 'F']
+    sensores = ['0', 'F', 'H']
     poblacion = []
     for i in range(numIndividuos):
         individuo = []
