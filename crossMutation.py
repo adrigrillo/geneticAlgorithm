@@ -10,7 +10,9 @@ import random
 def cruce(poblacion):
     i = 0
     poblacionNueva = []
-    while i < len(poblacion):
+    """ Reproducimos todos los individuos de la poblacion menos los dos últimos, que son los mejores
+        de la anterior generación """
+    while i < (len(poblacion) - 2):
         descendiente0 = ''
         descendiente1 = ''
         padre0 = poblacion[i]
@@ -26,6 +28,9 @@ def cruce(poblacion):
         poblacionNueva.append(descendiente0)
         poblacionNueva.append(descendiente1)
         i += 2
+    """ En este punto incluimos los dos mejores individuos de la población anterior """
+    poblacionNueva.append(poblacion[i])
+    poblacionNueva.append(poblacion[i + 1])
     return poblacionNueva
 
 
@@ -34,7 +39,9 @@ def cruce(poblacion):
 
 def mutacion(poblacion):
     poblacionNueva = []
-    for i in range(0, len(poblacion)):
+    """ Al igual que en la reproduccion, mutamos todos los individuos de la poblacion menos los dos últimos,
+        que son los mejores de la anterior generación """
+    for i in range(len(poblacion) - 2):
         auxPoblacion = str(poblacion[i])
         for j in range(384):
             aux = random.randint(0, 100)
@@ -48,4 +55,7 @@ def mutacion(poblacion):
                 sensores = ['0', 'F']
                 auxPoblacion = auxPoblacion[:j] + random.choice(sensores) + auxPoblacion[j + 1:]
         poblacionNueva.append(auxPoblacion)
+    """ En este punto incluimos los dos mejores individuos de la población anterior """
+    poblacionNueva.append(poblacion[len(poblacion) - 2])
+    poblacionNueva.append(poblacion[len(poblacion) - 1])
     return poblacionNueva

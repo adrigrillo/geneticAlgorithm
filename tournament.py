@@ -10,9 +10,9 @@ import random
 def torneo(poblacion):
     poblacionNueva = []
     jugadores = []
-    """ Aqui guardamos el mejor de la poblacion anterior (elitismo) """
-    poblacionNueva.append(evaluator(poblacion)[0])
-    for i in range(len(poblacion)-1):
+    """ Realizamos torneos de 4 individuos al azar, el numero de torneos sera el del tamaño de la poblacion
+        menos dos para conseguir 98 individuos y posteriormente guardar los dos mejores de la poblacion """
+    for i in range(len(poblacion) - 2):
         jugadores.append(poblacion[random.randint(0, len(poblacion) - 1)])
         jugadores.append(poblacion[random.randint(0, len(poblacion) - 1)])
         jugadores.append(poblacion[random.randint(0, len(poblacion) - 1)])
@@ -20,4 +20,10 @@ def torneo(poblacion):
         ganador = evaluator(jugadores)
         poblacionNueva.append(ganador[0])
         del jugadores[:]
+    """ Tras hacer el torneo, vamos a coger los dos mejores individuos de la población """
+    elite = evaluator(poblacion)[0]
+    poblacionNueva.append(elite)
+    poblacion.remove(elite)
+    elite = evaluator(poblacion)[0]
+    poblacionNueva.append(elite)
     return poblacionNueva
