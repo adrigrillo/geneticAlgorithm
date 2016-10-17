@@ -39,13 +39,8 @@ def mutacion(poblacion):
         for j in range(384):
             aux = random.randint(0, 100)
             if aux == 0 and auxPoblacion[j] == '0':
-                sensores = ['F', 'H']
-                auxPoblacion = auxPoblacion[:j] + random.choice(sensores) + auxPoblacion[j + 1:]
+                auxPoblacion = auxPoblacion[:j] + 'F' + auxPoblacion[j + 1:]
             elif aux == 0 and auxPoblacion[j] == 'F':
-                sensores = ['0', 'H']
-                auxPoblacion = auxPoblacion[:j] + random.choice(sensores) + auxPoblacion[j + 1:]
-            elif aux == 0 and auxPoblacion[j] == 'H':
-                sensores = ['0', 'F']
-                auxPoblacion = auxPoblacion[:j] + random.choice(sensores) + auxPoblacion[j + 1:]
+                auxPoblacion = auxPoblacion[:j] + '0' + auxPoblacion[j + 1:]
         poblacionNueva.append(auxPoblacion)
     return poblacionNueva
