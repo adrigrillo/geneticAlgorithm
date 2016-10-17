@@ -10,7 +10,9 @@ import random
 def torneo(poblacion):
     poblacionNueva = []
     jugadores = []
-    for i in range(len(poblacion)):
+    """ Aqui guardamos el mejor de la poblacion anterior (elitismo) """
+    poblacionNueva.append(evaluator(poblacion)[0])
+    for i in range(len(poblacion)-1):
         jugadores.append(poblacion[random.randint(0, len(poblacion) - 1)])
         jugadores.append(poblacion[random.randint(0, len(poblacion) - 1)])
         jugadores.append(poblacion[random.randint(0, len(poblacion) - 1)])
