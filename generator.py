@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-import itertools
 import random
 
 """ CREADOR DE POBLACIONES, DEVUELVE UNA LISTA FORMADA POR numIndividuos INDIVIDUOS, ESTOS ESTAN FORMADOS POR 384
@@ -8,7 +7,7 @@ import random
 
 
 def generarPoblacion(numIndividuos):
-    sensores = ['0', 'F', 'H']
+    sensores = ['0', 'F']
     poblacion = []
     for i in range(numIndividuos):
         individuo = []
