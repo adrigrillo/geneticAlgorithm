@@ -32,7 +32,10 @@ def paradaAlgoritmo(iteracion, fitness):
     fitnessIter.append(fitness)
     if iteracion >= 10:
         if fitnessIter.pop(0) == fitness:
-            sys.exit("Realizado, parada por estancamiento")
+            texto = "\rProgreso: [{0}] {1}% {2}".format("#"*10, 100, 'Completado, parada por estancamiento')
+            sys.stdout.write(texto)
+            sys.stdout.flush()
+            return True
 
 
 def estadoEjecucion(iteraciones, total):
