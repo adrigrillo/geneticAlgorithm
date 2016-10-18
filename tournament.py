@@ -7,16 +7,14 @@ import random
     EVALUA AL MEJOR Y LO METE EN LA poblacionNueva """
 
 
-def torneo(poblacion):
+def torneo(poblacion, participantes):
     poblacionNueva = []
     jugadores = []
-    """ Realizamos torneos de 4 individuos al azar, el numero de torneos sera el del tamaño de la poblacion
+    """ Realizamos torneos de los individuos especificados al azar, el numero de torneos sera el del tamaño de la poblacion
         menos dos para conseguir 98 individuos y posteriormente guardar los dos mejores de la poblacion """
     for i in range(len(poblacion) - 2):
-        jugadores.append(poblacion[random.randint(0, len(poblacion) - 1)])
-        jugadores.append(poblacion[random.randint(0, len(poblacion) - 1)])
-        jugadores.append(poblacion[random.randint(0, len(poblacion) - 1)])
-        jugadores.append(poblacion[random.randint(0, len(poblacion) - 1)])
+        for j in range(participantes):
+            jugadores.append(poblacion[random.randint(0, len(poblacion) - 1)])
         ganador = evaluator(jugadores)
         poblacionNueva.append(ganador[0])
         del jugadores[:]
