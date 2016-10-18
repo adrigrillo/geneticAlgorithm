@@ -30,7 +30,7 @@
       <file leaf-file-name="tester.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tester.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
+            <state relative-caret-position="187">
               <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding>
                 <element signature="e#46#60#0" expanded="true" />
@@ -52,7 +52,7 @@
       <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
+            <state relative-caret-position="440">
               <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
               <folding>
                 <element signature="e#48#71#0" expanded="true" />
@@ -67,7 +67,7 @@
             <state relative-caret-position="680">
               <caret line="40" column="48" selection-start-line="40" selection-start-column="48" selection-end-line="40" selection-end-column="48" />
               <folding>
-                <marker date="1476831987279" expanded="true" signature="1888:1911" ph="..." />
+                <marker date="1476832352471" expanded="true" signature="1888:1911" ph="..." />
               </folding>
             </state>
           </provider>
@@ -76,8 +76,8 @@
       <file leaf-file-name="dataChecker.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dataChecker.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="117">
-              <caret line="33" column="41" selection-start-line="33" selection-start-column="41" selection-end-line="33" selection-end-column="41" />
+            <state relative-caret-position="321">
+              <caret line="42" column="44" selection-start-line="42" selection-start-column="44" selection-end-line="42" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -86,7 +86,7 @@
       <file leaf-file-name="tournament.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tournament.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
+            <state relative-caret-position="153">
               <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
               <folding>
                 <element signature="e#46#66#0" expanded="true" />
@@ -164,6 +164,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
@@ -186,7 +187,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -598,8 +598,8 @@
       <workItem from="1476797972041" duration="2888000" />
       <workItem from="1476805241853" duration="574000" />
       <workItem from="1476806822396" duration="4918000" />
-      <workItem from="1476830375511" duration="1074000" />
-      <workItem from="1476831919337" duration="86000" />
+      <workItem from="1476830375511" duration="484000" />
+      <workItem from="1476832042212" duration="326000" />
     </task>
     <task id="LOCAL-00001" summary="Ver que falla en la iteracion 51">
       <created>1475012469857</created>
@@ -706,18 +706,18 @@
       <option name="project" value="LOCAL" />
       <updated>1476830735818</updated>
     </task>
-    <task id="LOCAL-00016" summary="Corregido parada de programa que inutilizaba script">
-      <created>1476830866446</created>
+    <task id="LOCAL-00016" summary="Corregido como se muestra la barra de progreso">
+      <created>1476832082478</created>
       <option name="number" value="00016" />
       <option name="presentableId" value="LOCAL-00016" />
       <option name="project" value="LOCAL" />
-      <updated>1476830866446</updated>
+      <updated>1476832082478</updated>
     </task>
     <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21027000" />
+    <option name="totallyTimeSpent" value="20677000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -783,7 +783,8 @@
     <MESSAGE value="Añadido progreso" />
     <MESSAGE value="Corregido progreso, versión posible final de esto" />
     <MESSAGE value="Corregido parada de programa que inutilizaba script" />
-    <option name="LAST_COMMIT_MESSAGE" value="Corregido parada de programa que inutilizaba script" />
+    <MESSAGE value="Corregido como se muestra la barra de progreso" />
+    <option name="LAST_COMMIT_MESSAGE" value="Corregido como se muestra la barra de progreso" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -811,7 +812,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1476831987279" expanded="true" signature="1888:1911" ph="..." />
+            <marker date="1476832352471" expanded="true" signature="1888:1911" ph="..." />
           </folding>
         </state>
       </provider>
@@ -859,7 +860,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1476831987279" expanded="true" signature="1888:1911" ph="..." />
+            <marker date="1476832352471" expanded="true" signature="1888:1911" ph="..." />
           </folding>
         </state>
       </provider>
@@ -907,7 +908,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1476831987279" expanded="true" signature="1888:1911" ph="..." />
+            <marker date="1476832352471" expanded="true" signature="1888:1911" ph="..." />
           </folding>
         </state>
       </provider>
@@ -955,7 +956,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1476831987279" expanded="true" signature="1888:1911" ph="..." />
+            <marker date="1476832352471" expanded="true" signature="1888:1911" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1003,7 +1004,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1476831987279" expanded="true" signature="1888:1911" ph="..." />
+            <marker date="1476832352471" expanded="true" signature="1888:1911" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1051,7 +1052,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1476831987279" expanded="true" signature="1888:1911" ph="..." />
+            <marker date="1476832352471" expanded="true" signature="1888:1911" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1099,7 +1100,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1476831987279" expanded="true" signature="1888:1911" ph="..." />
+            <marker date="1476832352471" expanded="true" signature="1888:1911" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1147,7 +1148,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1476831987279" expanded="true" signature="1888:1911" ph="..." />
+            <marker date="1476832352471" expanded="true" signature="1888:1911" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1195,7 +1196,7 @@
     <entry file="file://$PROJECT_DIR$/salidas18-174407.txt" />
     <entry file="file://$PROJECT_DIR$/tester.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
+        <state relative-caret-position="187">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
             <element signature="e#46#60#0" expanded="true" />
@@ -1213,7 +1214,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tournament.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
+        <state relative-caret-position="153">
           <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
           <folding>
             <element signature="e#46#66#0" expanded="true" />
@@ -1234,14 +1235,14 @@
         <state relative-caret-position="680">
           <caret line="40" column="48" selection-start-line="40" selection-start-column="48" selection-end-line="40" selection-end-column="48" />
           <folding>
-            <marker date="1476831987279" expanded="true" signature="1888:1911" ph="..." />
+            <marker date="1476832352471" expanded="true" signature="1888:1911" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
+        <state relative-caret-position="440">
           <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
           <folding>
             <element signature="e#48#71#0" expanded="true" />
@@ -1251,8 +1252,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dataChecker.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="33" column="41" selection-start-line="33" selection-start-column="41" selection-end-line="33" selection-end-column="41" />
+        <state relative-caret-position="321">
+          <caret line="42" column="44" selection-start-line="42" selection-start-column="44" selection-end-line="42" selection-end-column="44" />
           <folding />
         </state>
       </provider>
