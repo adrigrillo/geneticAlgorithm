@@ -28,7 +28,8 @@ def main(tamanoPoblacion, numGeneraciones, tasaMutacion, partipantesTorneo):
         poblacion = mutacion(poblacion, tasaMutacion)
         stop = time.time()
         saveData(nomFichero, i, (stop - start), mejor[1])
-        paradaAlgoritmo(i, mejor[1])
+        if paradaAlgoritmo(i, mejor[1]) is True:
+            break
         estadoEjecucion(i, numGeneraciones)
 
 main(100, 20, 100, 4)
