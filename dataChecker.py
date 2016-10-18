@@ -40,7 +40,7 @@ def paradaAlgoritmo(iteracion, fitness):
 
 def estadoEjecucion(iteraciones, total):
     progreso = 0
-    estado = "                              "
+    estado = "Completado. Ejecutando..."
     if iteraciones == 0:
         progreso = 0
         estado = "Iniciando..."
