@@ -36,18 +36,16 @@ def paradaAlgoritmo(iteracion, fitness):
 
 
 def estadoEjecucion(iteraciones, total):
-    progreso = iteraciones / total
-    barLength = 10
+    progreso = float(iteraciones) / float(total)
+    longBarra = 10
     estado = ""
-    if isinstance(progreso, int):
-        progreso = float(progreso)
     if progreso < 0:
         progreso = 0
         estado = "Iniciando...\r\n"
     if progreso >= 1:
         progreso = 1
         estado = "Hecho, archivo de resultados finalizado.\r\n"
-    block = int(round(barLength*progreso))
-    text = "\rProgreso: [{0}] {1}% {2}".format("#"*block + "-"*(barLength-block), progreso*100, estado)
-    sys.stdout.write(text)
+    bloque = int(round(longBarra*progreso))
+    texto = "\rProgreso: [{0}] {1}% {2}".format("#"*bloque + "-"*(longBarra-bloque), progreso*100, estado)
+    sys.stdout.write(texto)
     sys.stdout.flush()
