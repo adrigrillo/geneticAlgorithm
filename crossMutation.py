@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-from generator import *
 import random
 
 
@@ -37,14 +36,14 @@ def cruce(poblacion):
 # ESTA FUNCION USA UN 0.1 DE PROBABILIDAD PARA MUTAR UN GEN DE LOS DESCENDIENTES
 
 
-def mutacion(poblacion):
+def mutacion(poblacion, tasaMutacion):
     poblacionNueva = []
     """ Al igual que en la reproduccion, mutamos todos los individuos de la poblacion menos los dos últimos,
         que son los mejores de la anterior generación """
     for i in range(len(poblacion) - 2):
         auxPoblacion = str(poblacion[i])
         for j in range(384):
-            aux = random.randint(0, 100)
+            aux = random.randint(0, tasaMutacion)
             if aux == 0 and auxPoblacion[j] == '0':
                 sensores = ['F', 'H']
                 auxPoblacion = auxPoblacion[:j] + random.choice(sensores) + auxPoblacion[j + 1:]

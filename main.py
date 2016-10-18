@@ -3,33 +3,29 @@
 from generator import *
 from tournament import *
 from crossMutation import *
+from dataSaver import *
 import time
 
 
-def main():
-    start = time.time()
-    contador = 1
-    print contador
-    poblacion = generarPoblacion(100)
-    mejor = evaluator(poblacion)
-    print mejor
-    nuevaPoblacion = torneo(poblacion)
-    nuevaPoblacion = cruce(nuevaPoblacion)
-    nuevaPoblacion = mutacion(nuevaPoblacion)
-    stop = time.time()
-    print(stop - start)
-    for i in range(0, 999):
+def main(tamanoPoblacion, numGeneraciones, tasaMutacion, partipantesTorneo):
+    """ Version de cromosomas con 384 bits que soportan el vocabulario '0', 'F' y 'H'
+    :param tamanoPoblacion: Sera el tamaño de la poblacion deseada
+    :param numGeneraciones: El número de generaciones que queremos crear, es decir, las veces que se ejecutará el ciclo
+    :param tasaMutacion: Tasa de mutacion de los cromosomas. Sera de 1 sobre el valor establecido
+    :param partipantesTorneo: Numero de individuos que participara en cada ronda del torneo
+    :return: Imprime fichero con los resultados de la ejecución
+    """
+    """ Creamos el nombre de fichero para esta ejecucion y la poblacion """
+    nomFichero = 'salidas' + time.strftime("%d-%H%M%S") + '.txt'
+    poblacion = generarPoblacion(tamanoPoblacion)
+    """ Empezamos con el proceso """
+    for i in range(numGeneraciones):
         start = time.time()
-        contador += 1
-        print contador
-        mejor = evaluator(nuevaPoblacion)
-        print mejor
-        nuevaPoblacion = torneo(nuevaPoblacion)
-        nuevaPoblacion = cruce(nuevaPoblacion)
-        nuevaPoblacion = mutacion(nuevaPoblacion)
+        mejor = evaluator(poblacion)
+        poblacion = torneo(poblacion, partipantesTorneo)
+        poblacion = cruce(poblacion)
+        poblacion = mutacion(poblacion, tasaMutacion)
         stop = time.time()
-        print(stop - start)
+        saveData(nomFichero, i, (start - stop), mejor)
 
-    print mejor
-
-main()
+main(100, 20, 100, 4)
