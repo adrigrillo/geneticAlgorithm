@@ -45,9 +45,14 @@ def mutacion(poblacion, tasaMutacion):
         for j in range(384):
             aux = random.randint(0, tasaMutacion)
             if aux == 0 and auxPoblacion[j] == '0':
-                auxPoblacion = auxPoblacion[:j] + 'F' + auxPoblacion[j + 1:]
+                sensores = ['F', 'H']
+                auxPoblacion = auxPoblacion[:j] + random.choice(sensores) + auxPoblacion[j + 1:]
             elif aux == 0 and auxPoblacion[j] == 'F':
-                auxPoblacion = auxPoblacion[:j] + '0' + auxPoblacion[j + 1:]
+                sensores = ['0', 'H']
+                auxPoblacion = auxPoblacion[:j] + random.choice(sensores) + auxPoblacion[j + 1:]
+            elif aux == 0 and auxPoblacion[j] == 'H':
+                sensores = ['0', 'F']
+                auxPoblacion = auxPoblacion[:j] + random.choice(sensores) + auxPoblacion[j + 1:]
         poblacionNueva.append(auxPoblacion)
     """ En este punto incluimos los dos mejores individuos de la población anterior """
     poblacionNueva.append(poblacion[len(poblacion) - 2])
