@@ -3,12 +3,13 @@
 from generator import *
 from tournament import *
 from crossMutation import *
-from dataSaver import *
+from dataChecker import *
 import time
 
 
 def main(tamanoPoblacion, numGeneraciones, tasaMutacion, partipantesTorneo):
-    """ Version de cromosomas con 384 bits que soportan el vocabulario '0', 'F' y 'H'
+    """
+    Version de cromosomas con 384 bits que soportan el vocabulario '0', 'F' y 'H'
     :param tamanoPoblacion: Sera el tamaño de la poblacion deseada
     :param numGeneraciones: El número de generaciones que queremos crear, es decir, las veces que se ejecutará el ciclo
     :param tasaMutacion: Tasa de mutacion de los cromosomas. Sera de 1 sobre el valor establecido
@@ -27,5 +28,6 @@ def main(tamanoPoblacion, numGeneraciones, tasaMutacion, partipantesTorneo):
         poblacion = mutacion(poblacion, tasaMutacion)
         stop = time.time()
         saveData(nomFichero, i, (stop - start), mejor[1])
+        paradaAlgoritmo(i, mejor[1])
 
 main(100, 20, 100, 4)
