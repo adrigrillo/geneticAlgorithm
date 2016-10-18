@@ -26,6 +26,6 @@ def main(tamanoPoblacion, numGeneraciones, tasaMutacion, partipantesTorneo):
         poblacion = cruce(poblacion)
         poblacion = mutacion(poblacion, tasaMutacion)
         stop = time.time()
-        saveData(nomFichero, i, (start - stop), mejor)
+        saveData(nomFichero, i, (stop - start), mejor[1])
 
 main(100, 20, 100, 4)

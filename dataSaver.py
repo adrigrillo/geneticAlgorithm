@@ -4,5 +4,7 @@
 
 def saveData(nomFichero, iteracion, tiempoIteracion, fitness):
     file = open(nomFichero, 'a')
-    data = iteracion + ',' + tiempoIteracion + ',' + fitness
+    data = str(iteracion) + ',' + str(tiempoIteracion) + ',' + str(fitness)
+    file.write(data + '\n')
+    file.close()
 
