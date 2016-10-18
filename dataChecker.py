@@ -28,9 +28,7 @@ def paradaAlgoritmo(iteracion, fitness):
     :return:
     """
     fitnessIter.append(fitness)
+    print len(fitnessIter)
     if iteracion >= 3:
         if fitnessIter.pop(0) == fitness:
             sys.exit("Parada por estancamiento")
-
-
-
