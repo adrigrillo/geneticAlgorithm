@@ -7,6 +7,7 @@ fitnessIterAnteriores = []
 fitnessIterActuales = []
 iterAtascado = 0
 
+
 def saveData(nomFichero, iteracion, tiempoIteracion, fitness, tamanoPoblacion, tasaMutacion, participantesTorneo):
     """
     Funcion que guarda los datos de la partida en cada iteracion
