@@ -2,9 +2,9 @@
 # -*- coding: utf-8 -*-
 import sys
 
-
-fitnessIter = []
-
+""" Arrays donde se almacenaran los resultados de la funcion de evaluacion """
+fitnessIterAnteriores = []
+fitnessIterActuales = []
 
 def saveData(nomFichero, iteracion, tiempoIteracion, fitness, tamanoPoblacion, tasaMutacion, participantesTorneo):
     """
@@ -35,13 +35,20 @@ def paradaAlgoritmo(iteracion, fitness):
     :param fitness: fitness de la iteracion actual
     :return:
     """
-    fitnessIter.append(fitness)
-    if iteracion >= 10:
-        if fitnessIter.pop(0) <= fitness:
-            texto = "\rProgreso: [{0}] {1}% {2}".format("#"*10, 100, 'Completado, parada por estancamiento\r\n')
-            sys.stdout.write(texto)
-            sys.stdout.flush()
-            return True
+    if iteracion < 30:
+        fitnessIterAnteriores.append(fitness)
+    elif iteracion >= 30:
+        fitnessIterActuales.append(fitness)
+        print fitnessIterAnteriores
+        print fitnessIterActuales
+        if iteracion >= 40:
+            fitnessIterAnteriores.append(fitnessIterActuales.pop(0))
+            print min(fitnessIterAnteriores), min(fitnessIterActuales)
+            if min(fitnessIterAnteriores) <= min(fitnessIterActuales):
+                texto = "\rProgreso: [{0}] {1}% {2}".format("#"*10, 100, 'Completado, parada por estancamiento\r\n')
+                sys.stdout.write(texto)
+                sys.stdout.flush()
+                return True
 
 
 def estadoEjecucion(iteraciones, total):

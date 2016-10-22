@@ -7,13 +7,14 @@ from dataChecker import *
 import time
 
 
-def main(tamanoPoblacion, numGeneraciones, tasaMutacion, partipantesTorneo):
+def main(tamanoPoblacion, numGeneraciones, tasaMutacion, partipantesTorneo, parada):
     """
     Version de cromosomas con 384 bits que soportan el vocabulario '0' y 'F'
     :param tamanoPoblacion: Sera el tamaño de la poblacion deseada
     :param numGeneraciones: El número de generaciones que queremos crear, es decir, las veces que se ejecutará el ciclo
     :param tasaMutacion: Tasa de mutacion de los cromosomas. Sera de 1 sobre el valor establecido
     :param partipantesTorneo: Numero de individuos que participara en cada ronda del torneo
+    :param parada: Flag para activar parada por estancamiento
     :return: Imprime fichero con los resultados de la ejecución
     """
     """ Creamos el nombre de fichero para esta ejecucion y la poblacion """
@@ -28,6 +29,7 @@ def main(tamanoPoblacion, numGeneraciones, tasaMutacion, partipantesTorneo):
         poblacion = mutacion(poblacion, tasaMutacion)
         stop = time.time()
         saveData(nomFichero, i, (stop - start), mejor[1], tamanoPoblacion, numGeneraciones, partipantesTorneo)
-        if paradaAlgoritmo(i, mejor[1]) is True:
-            break
+        if parada is True:
+            if paradaAlgoritmo(i, mejor[1]) is True:
+                break
         estadoEjecucion(i, numGeneraciones)
