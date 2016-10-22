@@ -28,7 +28,7 @@ def main(tamanoPoblacion, numGeneraciones, tasaMutacion, partipantesTorneo, para
         poblacion = cruce(poblacion)
         poblacion = mutacion(poblacion, tasaMutacion)
         stop = time.time()
-        saveData(nomFichero, i, (stop - start), mejor[1], tamanoPoblacion, numGeneraciones, partipantesTorneo)
+        saveData(nomFichero, i, (stop - start), mejor[1], tamanoPoblacion, tasaMutacion, partipantesTorneo)
         if parada is True:
             if paradaAlgoritmo(i, mejor[1]) is True:
                 break
