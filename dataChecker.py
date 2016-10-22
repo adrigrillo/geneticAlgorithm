@@ -38,6 +38,8 @@ def paradaAlgoritmo(iteracion, fitness):
     :return:
     """
     global iterAtascado, fitnessIterActuales, fitnessIterAnteriores
+    if iteracion == 0:
+        iterAtascado = 0
     if iteracion < 30:
         """ Metemos los valores actuales durante las x primeras iteraciones en la lista que tendra los antiguos """
         fitnessIterAnteriores.append(fitness)
@@ -54,7 +56,7 @@ def paradaAlgoritmo(iteracion, fitness):
                     produce parada por estancamiento """
                 iterAtascado += 1
                 """ Si se produce un estacamiento durante más de 5 turnos se toma como estancamiento """
-                if iterAtascado == 3:
+                if iterAtascado == 5:
                     texto = "\rProgreso: [{0}] {1}% {2}".format("#"*10, 100, 'Completado, parada por estancamiento\r\n')
                     sys.stdout.write(texto)
                     sys.stdout.flush()
