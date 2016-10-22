@@ -4,8 +4,6 @@ from main import *
 
 """ Esta clase será utilizada para hacer las correspondientes llamadas al algoritmo
     para ello se llamara a la funcion main de la siguiente forma:
-    main(tamanoPoblacion = (valor), numGeneraciones = (valor), tasaMutacion = (valor), partipantesTorneo = (valor))"""
-main(tamanoPoblacion = 100, numGeneraciones = 500, tasaMutacion = 100, partipantesTorneo = 2)
-main(tamanoPoblacion = 100, numGeneraciones = 500, tasaMutacion = 100, partipantesTorneo = 4)
-main(tamanoPoblacion = 100, numGeneraciones = 500, tasaMutacion = 100, partipantesTorneo = 12)
-main(tamanoPoblacion = 100, numGeneraciones = 500, tasaMutacion = 100, partipantesTorneo = 50)
+    main(tamanoPoblacion = (valor), numGeneraciones = (valor), tasaMutacion = (valor), partipantesTorneo = (valor),
+         parada = (True/False))"""
+main(tamanoPoblacion = 10, numGeneraciones = 500, tasaMutacion = 100, partipantesTorneo = 2, parada = True)

@@ -5,6 +5,7 @@ import sys
 """ Arrays donde se almacenaran los resultados de la funcion de evaluacion """
 fitnessIterAnteriores = []
 fitnessIterActuales = []
+iterAtascado = 0
 
 def saveData(nomFichero, iteracion, tiempoIteracion, fitness, tamanoPoblacion, tasaMutacion, participantesTorneo):
     """
@@ -35,20 +36,28 @@ def paradaAlgoritmo(iteracion, fitness):
     :param fitness: fitness de la iteracion actual
     :return:
     """
+    global iterAtascado, fitnessIterActuales, fitnessIterAnteriores
     if iteracion < 30:
+        """ Metemos los valores actuales durante las x primeras iteraciones en la lista que tendra los antiguos """
         fitnessIterAnteriores.append(fitness)
     elif iteracion >= 30:
+        """ Metemos los valores actuales a partir de las x iteraciones en la lista que tendra los nuevos """
         fitnessIterActuales.append(fitness)
-        print fitnessIterAnteriores
-        print fitnessIterActuales
         if iteracion >= 40:
+            """ A partir de las x iteraciones, los actuales se meten en la nueva lista, pero se cede el ultimo a la
+                lista vieja para ir asi actualizando los valores en ambas listas """
+            fitnessIterAnteriores.pop(0)
             fitnessIterAnteriores.append(fitnessIterActuales.pop(0))
-            print min(fitnessIterAnteriores), min(fitnessIterActuales)
             if min(fitnessIterAnteriores) <= min(fitnessIterActuales):
-                texto = "\rProgreso: [{0}] {1}% {2}".format("#"*10, 100, 'Completado, parada por estancamiento\r\n')
-                sys.stdout.write(texto)
-                sys.stdout.flush()
-                return True
+                """ Si el minimo de la lista vieja es menor o igual al menor de la nueva durante tres iteraciones se
+                    produce parada por estancamiento """
+                iterAtascado += 1
+                """ Si se produce un estacamiento durante más de 5 turnos se toma como estancamiento """
+                if iterAtascado == 5:
+                    texto = "\rProgreso: [{0}] {1}% {2}".format("#"*10, 100, 'Completado, parada por estancamiento\r\n')
+                    sys.stdout.write(texto)
+                    sys.stdout.flush()
+                    return True
 
 
 def estadoEjecucion(iteraciones, total):
