@@ -54,7 +54,7 @@ def paradaAlgoritmo(iteracion, fitness):
                     produce parada por estancamiento """
                 iterAtascado += 1
                 """ Si se produce un estacamiento durante más de 5 turnos se toma como estancamiento """
-                if iterAtascado == 5:
+                if iterAtascado == 3:
                     texto = "\rProgreso: [{0}] {1}% {2}".format("#"*10, 100, 'Completado, parada por estancamiento\r\n')
                     sys.stdout.write(texto)
                     sys.stdout.flush()
