@@ -39,6 +39,8 @@ def paradaAlgoritmo(iteracion, fitness):
     :return:
     """
     global iterAtascado, fitnessIterActuales, fitnessIterAnteriores
+    if iteracion == 0:
+        iterAtascado = 0
     if iteracion < 30:
         """ Metemos los valores actuales durante las x primeras iteraciones en la lista que tendra los antiguos """
         fitnessIterAnteriores.append(fitness)
