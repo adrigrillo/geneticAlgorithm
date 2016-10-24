@@ -2,11 +2,14 @@
 # -*- coding: utf-8 -*-
 import random
 
-""" CREADOR DE POBLACIONES, DEVUELVE UNA LISTA FORMADA POR numIndividuos INDIVIDUOS, ESTOS ESTAN FORMADOS POR 384
-    BITS QUE REPRESENTAN 24 ESTACIONES DE 16 SENSORES """
-
 
 def generarPoblacion(numIndividuos):
+    """
+    CREADOR DE POBLACIONES, DEVUELVE UNA LISTA FORMADA POR numIndividuos INDIVIDUOS, ESTOS ESTAN FORMADOS POR 384
+    BITS QUE REPRESENTAN 24 ESTACIONES DE 16 SENSORES
+    :param numIndividuos: Numero de individuos que tendra la poblacion
+    :return:
+    """
     sensores = ['0', 'F', 'H']
     poblacion = []
     for i in range(numIndividuos):

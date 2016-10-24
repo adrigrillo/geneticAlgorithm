@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
+from tester import *
 import sys
 
 
@@ -25,7 +26,7 @@ def saveData(nomFichero, iteracion, tiempoIteracion, fitness, tamanoPoblacion, t
     if iteracion is 0:
         file.write('Ejecucion con tamaño de poblacion ' + str(tamanoPoblacion) + ', con tasa de mutacion del ' +
                    str(float(1) / float(tasaMutacion)) + '%, y con torneos de ' + str(participantesTorneo) + '\n')
-    data = str(iteracion) + ';' + str(tiempoIteracion) + ';' + str(fitness)
+    data = str(iteracion) + ';' + str(tiempoIteracion) + ';' + str(fitness) + ';' + str(devolverllamadas())
     file.write(data + '\n')
     file.close()
 
@@ -67,6 +68,12 @@ def paradaAlgoritmo(iteracion, fitness):
 
 
 def estadoEjecucion(iteraciones, total):
+    """
+    Metodo que imprime el estado de la ejeucion por pantalla
+    :param iteraciones: Iteracion actual
+    :param total: Total de iteraciones a realizar
+    :return:
+    """
     progreso = 0
     estado = 'Completado. Ejecutando...'
     if iteraciones == 0:
