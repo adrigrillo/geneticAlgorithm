@@ -32,3 +32,8 @@ def evaluator(poblacion):
 def devolverllamadas():
     global llamadas
     return llamadas
+
+
+def reiniciarllamadas():
+    global llamadas
+    llamadas = 0

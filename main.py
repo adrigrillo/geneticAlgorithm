@@ -4,6 +4,7 @@ from generator import *
 from tournament import *
 from crossMutation import *
 from dataChecker import *
+from tester import *
 import time
 
 
@@ -33,3 +34,4 @@ def main(tamanoPoblacion, numGeneraciones, tasaMutacion, partipantesTorneo, para
             if paradaAlgoritmo(i, mejor[1]) is True:
                 break
         estadoEjecucion(i, numGeneraciones)
+    reiniciarllamadas()
