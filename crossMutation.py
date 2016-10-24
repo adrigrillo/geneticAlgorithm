@@ -3,10 +3,12 @@
 import random
 
 
-# ESTA FUNCION CRUZA (ALEATORIAMENTE) CROMOSOMA A CROMOSOMA LOS PADRES PARA FORMAR LA MISMA CANTIDAD DE DESCENDIENTES
-
-
 def cruce(poblacion):
+    """
+    ESTA FUNCION CRUZA (ALEATORIAMENTE) CROMOSOMA A CROMOSOMA LOS PADRES PARA FORMAR LA MISMA CANTIDAD DE DESCENDIENTES
+    :param poblacion: poblacion a cruzar
+    :return:
+    """
     i = 0
     poblacionNueva = []
     """ Reproducimos todos los individuos de la poblacion menos los dos últimos, que son los mejores
@@ -37,6 +39,12 @@ def cruce(poblacion):
 
 
 def mutacion(poblacion, tasaMutacion):
+    """
+    Funcion que realiza la mutacion de la poblacion
+    :param poblacion: Poblacion a mutar
+    :param tasaMutacion: Probabilidad de que ocurra una mutacion
+    :return:
+    """
     poblacionNueva = []
     """ Al igual que en la reproduccion, mutamos todos los individuos de la poblacion menos los dos últimos,
         que son los mejores de la anterior generación """

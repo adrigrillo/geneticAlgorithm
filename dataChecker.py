@@ -67,6 +67,12 @@ def paradaAlgoritmo(iteracion, fitness):
 
 
 def estadoEjecucion(iteraciones, total):
+    """
+    Metodo que imprime el estado de la ejeucion por pantalla
+    :param iteraciones: Iteracion actual
+    :param total: Total de iteraciones a realizar
+    :return:
+    """
     progreso = 0
     estado = "Completado. Ejecutando..."
     if iteraciones == 0:
