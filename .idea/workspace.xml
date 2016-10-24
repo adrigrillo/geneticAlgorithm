@@ -1,11 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9964ecb2-f7da-4a72-9f6a-5cd3d1e3e817" name="Default" comment="Justificao loco">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Practica1-100303573-100316457.docx" afterPath="$PROJECT_DIR$/Practica1-100303573-100316457.docx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Practica1-100303573-100316457.pdf" afterPath="$PROJECT_DIR$/Practica1-100303573-100316457.pdf" />
+    <list default="true" id="9964ecb2-f7da-4a72-9f6a-5cd3d1e3e817" name="Default" comment="Documentos organizados">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Practica1-100303573-100316457.docx" afterPath="$PROJECT_DIR$/docs/Practica1-100303573-100316457.docx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Practica1-100303573-100316457.pdf" afterPath="$PROJECT_DIR$/docs/Practica1-100303573-100316457.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/datos/bsalidas22-151619.txt" afterPath="$PROJECT_DIR$/docs/datos/bsalidas22-151619.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/datos/bsalidas22-152135.txt" afterPath="$PROJECT_DIR$/docs/datos/bsalidas22-152135.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/datos/bsalidas22-154507.txt" afterPath="$PROJECT_DIR$/docs/datos/bsalidas22-154507.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/datos/bsalidas22-162957.txt" afterPath="$PROJECT_DIR$/docs/datos/bsalidas22-162957.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/datos/bsalidas22-174504.txt" afterPath="$PROJECT_DIR$/docs/datos/bsalidas22-174504.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/datos/bsalidas22-190557.txt" afterPath="$PROJECT_DIR$/docs/datos/bsalidas22-190557.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/datos/bsalidas22-191203.txt" afterPath="$PROJECT_DIR$/docs/datos/bsalidas22-191203.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/datos/bsalidas22-191454.txt" afterPath="$PROJECT_DIR$/docs/datos/bsalidas22-191454.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/datos/bsalidas22-191851.txt" afterPath="$PROJECT_DIR$/docs/datos/bsalidas22-191851.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/datos/bsalidas22-192537.txt" afterPath="$PROJECT_DIR$/docs/datos/bsalidas22-192537.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/datos/bsalidas22-193440.txt" afterPath="$PROJECT_DIR$/docs/datos/bsalidas22-193440.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/datos/bsalidas23-124648.txt" afterPath="$PROJECT_DIR$/docs/datos/bsalidas23-124648.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/datos/bsalidas23-130605.txt" afterPath="$PROJECT_DIR$/docs/datos/bsalidas23-130605.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/datos/bsalidas23-173016.txt" afterPath="$PROJECT_DIR$/docs/datos/bsalidas23-173016.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/datos/bsalidas23-174047.txt" afterPath="$PROJECT_DIR$/docs/datos/bsalidas23-174047.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/datos/bsalidas23-174942.txt" afterPath="$PROJECT_DIR$/docs/datos/bsalidas23-174942.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/datos/bsalidas23-180307.txt" afterPath="$PROJECT_DIR$/docs/datos/bsalidas23-180307.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/datos/bsalidas23-181536.txt" afterPath="$PROJECT_DIR$/docs/datos/bsalidas23-181536.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/datos/bsalidas23-182709.txt" afterPath="$PROJECT_DIR$/docs/datos/bsalidas23-182709.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/datos/mutacion10.xlsx" afterPath="$PROJECT_DIR$/docs/datos/mutacion10.xlsx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/datos/mutacion20.xlsx" afterPath="$PROJECT_DIR$/docs/datos/mutacion20.xlsx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/datos/mutacion23.xlsx" afterPath="$PROJECT_DIR$/docs/datos/mutacion23.xlsx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/datos/mutacion51.xlsx" afterPath="$PROJECT_DIR$/docs/datos/mutacion51.xlsx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/datos/mutacion73.xlsx" afterPath="$PROJECT_DIR$/docs/datos/mutacion73.xlsx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/datos/mutacion97.xlsx" afterPath="$PROJECT_DIR$/docs/datos/mutacion97.xlsx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/datos/mutaciones.xlsx" afterPath="$PROJECT_DIR$/docs/datos/mutaciones.xlsx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/datos/obligatorio1.xlsx" afterPath="$PROJECT_DIR$/docs/datos/obligatorio1.xlsx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/datos/obligatorio2.xlsx" afterPath="$PROJECT_DIR$/docs/datos/obligatorio2.xlsx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/datos/obligatorio3.xlsx" afterPath="$PROJECT_DIR$/docs/datos/obligatorio3.xlsx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/datos/obligatorios.xlsx" afterPath="$PROJECT_DIR$/docs/datos/obligatorios.xlsx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/datos/opcional1.xlsx" afterPath="$PROJECT_DIR$/docs/datos/opcional1.xlsx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/datos/opcional100.xlsx" afterPath="$PROJECT_DIR$/docs/datos/opcional100.xlsx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/datos/opcional2.xlsx" afterPath="$PROJECT_DIR$/docs/datos/opcional2.xlsx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/datos/opcional3.xlsx" afterPath="$PROJECT_DIR$/docs/datos/opcional3.xlsx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/datos/opcional97.xlsx" afterPath="$PROJECT_DIR$/docs/datos/opcional97.xlsx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/datos/torneo12.xlsx" afterPath="$PROJECT_DIR$/docs/datos/torneo12.xlsx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/datos/torneo2.xlsx" afterPath="$PROJECT_DIR$/docs/datos/torneo2.xlsx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/datos/torneo4.xlsx" afterPath="$PROJECT_DIR$/docs/datos/torneo4.xlsx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/datos/torneo50.xlsx" afterPath="$PROJECT_DIR$/docs/datos/torneo50.xlsx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/datos/torneo8.xlsx" afterPath="$PROJECT_DIR$/docs/datos/torneo8.xlsx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/datos/torneos.xlsx" afterPath="$PROJECT_DIR$/docs/datos/torneos.xlsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tester.py" afterPath="$PROJECT_DIR$/tester.py" />
     </list>
     <ignored path="SmartCitiesOptimization.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,8 +74,8 @@
       <file leaf-file-name="tester.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tester.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="25" column="69" selection-start-line="25" selection-start-column="69" selection-end-line="25" selection-end-column="69" />
+            <state relative-caret-position="425">
+              <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="69" />
               <folding>
                 <element signature="e#46#60#0" expanded="true" />
               </folding>
@@ -66,7 +106,7 @@
       <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
+            <state relative-caret-position="493">
               <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
               <folding>
                 <element signature="e#48#71#0" expanded="true" />
@@ -78,7 +118,7 @@
       <file leaf-file-name="crossMutation.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/crossMutation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
+            <state relative-caret-position="782">
               <caret line="46" column="57" selection-start-line="46" selection-start-column="57" selection-end-line="46" selection-end-column="57" />
               <folding />
             </state>
@@ -88,7 +128,7 @@
       <file leaf-file-name="dataChecker.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dataChecker.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
+            <state relative-caret-position="1224">
               <caret line="73" column="49" selection-start-line="73" selection-start-column="49" selection-end-line="73" selection-end-column="49" />
               <folding>
                 <element signature="e#46#66#0" expanded="true" />
@@ -110,7 +150,7 @@
       <file leaf-file-name="bruteforce.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bruteforce.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
+            <state relative-caret-position="119">
               <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding>
                 <element signature="e#46#62#0" expanded="true" />
@@ -122,7 +162,7 @@
       <file leaf-file-name="tournament.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tournament.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
+            <state relative-caret-position="136">
               <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
               <folding>
                 <element signature="e#46#66#0" expanded="true" />
@@ -203,7 +243,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -224,6 +263,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -234,116 +274,10 @@
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files (x86)\nodejs\node.exe" />
     <property name="prop_add_unversioned_files" value="true" />
   </component>
-  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
-    <UpdatedFiles>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Updated from server" />
-        <option name="myStatusName" value="Changed on server" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="CHANGED_ON_SERVER" />
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Updated" />
-          <option name="myStatusName" value="Changed" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Practica1-100303573-100316457.docx</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Practica1-100303573-100316457.pdf</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Created" />
-          <option name="myStatusName" value="Created" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="CREATED" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Deleted" />
-          <option name="myStatusName" value="Deleted" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="true" />
-          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Restored" />
-          <option name="myStatusName" value="Will be restored" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="RESTORED" />
-        </FILE-GROUP>
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Modified" />
-        <option name="myStatusName" value="Modified" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MODIFIED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Skipped" />
-        <option name="myStatusName" value="Skipped" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SKIPPED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with conflicts" />
-        <option name="myStatusName" value="Will be merged with conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_CONFLICTS" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with tree conflicts" />
-        <option name="myStatusName" value="Merged with tree conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with property conflicts" />
-        <option name="myStatusName" value="Will be merged with property conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged" />
-        <option name="myStatusName" value="Will be merged" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Not in repository" />
-        <option name="myStatusName" value="Not in repository" />
-        <option name="mySupportsDeletion" value="true" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="UNKNOWN" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally added" />
-        <option name="myStatusName" value="Locally added" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_ADDED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally removed" />
-        <option name="myStatusName" value="Locally removed" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_REMOVED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Switched" />
-        <option name="myStatusName" value="Switched" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SWITCHED" />
-      </FILE-GROUP>
-    </UpdatedFiles>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\adria\Documents\UNI\ALGORITMOS GENETICOS\SmartCitiesOptimization\docs" />
+    </key>
   </component>
   <component name="RunManager" selected="Python.bruteforce">
     <configuration default="false" name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -792,7 +726,8 @@
       <workItem from="1477133754463" duration="5612000" />
       <workItem from="1477151069465" duration="305000" />
       <workItem from="1477154611551" duration="778000" />
-      <workItem from="1477334158669" duration="2390000" />
+      <workItem from="1477334158669" duration="2609000" />
+      <workItem from="1477337980334" duration="254000" />
     </task>
     <task id="LOCAL-00001" summary="Ver que falla en la iteracion 51">
       <created>1475012469857</created>
@@ -983,11 +918,18 @@
       <option name="project" value="LOCAL" />
       <updated>1477335836133</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Justificao loco">
+      <created>1477336558390</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1477336558390</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29908000" />
+    <option name="totallyTimeSpent" value="30381000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1000,7 +942,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="22" width="1382" height="754" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1010,9 +952,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.49702382" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17038691" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17038691" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1023,6 +963,8 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1038,7 +980,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="El error está en que la reproducción elimina dos elementos de la poblacion por iteracion" />
     <MESSAGE value="Corregido error, pero depende de la ejecución se estanca. Habrá que ver tal cosa" />
     <MESSAGE value="Hecho generador de poblaciones para ajustarse a la segunda parte" />
     <MESSAGE value="Corregido problema que no permitia convertir en string la lista" />
@@ -1063,7 +1004,8 @@
     <MESSAGE value="Añadido lo de imprimir el número de peticiones" />
     <MESSAGE value="Comentadas funciones" />
     <MESSAGE value="Quitado una cosa de bruteforce que no servia" />
-    <option name="LAST_COMMIT_MESSAGE" value="Quitado una cosa de bruteforce que no servia" />
+    <MESSAGE value="Justificao loco" />
+    <option name="LAST_COMMIT_MESSAGE" value="Justificao loco" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1378,7 +1320,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="129">
           <caret line="3326" column="8" selection-start-line="3326" selection-start-column="8" selection-end-line="3326" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1410,7 +1351,7 @@
     <entry file="file://$PROJECT_DIR$/salidas22-145531.txt" />
     <entry file="file://$PROJECT_DIR$/tournament.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
+        <state relative-caret-position="136">
           <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
           <folding>
             <element signature="e#46#66#0" expanded="true" />
@@ -1420,7 +1361,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/crossMutation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
+        <state relative-caret-position="782">
           <caret line="46" column="57" selection-start-line="46" selection-start-column="57" selection-end-line="46" selection-end-column="57" />
           <folding />
         </state>
@@ -1428,7 +1369,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dataChecker.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
+        <state relative-caret-position="1224">
           <caret line="73" column="49" selection-start-line="73" selection-start-column="49" selection-end-line="73" selection-end-column="49" />
           <folding>
             <element signature="e#46#66#0" expanded="true" />
@@ -1436,14 +1377,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/salidas24-205741.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/salidas24-205741.txt" />
     <entry file="file://$PROJECT_DIR$/exec.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -1462,7 +1396,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bruteforce.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
+        <state relative-caret-position="119">
           <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding>
             <element signature="e#46#62#0" expanded="true" />
@@ -1480,7 +1414,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
+        <state relative-caret-position="493">
           <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
           <folding>
             <element signature="e#48#71#0" expanded="true" />
@@ -1490,8 +1424,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tester.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="25" column="69" selection-start-line="25" selection-start-column="69" selection-end-line="25" selection-end-column="69" />
+        <state relative-caret-position="425">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="69" />
           <folding>
             <element signature="e#46#60#0" expanded="true" />
           </folding>
