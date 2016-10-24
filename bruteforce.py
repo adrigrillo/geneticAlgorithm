@@ -1,19 +1,16 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-import itertools
 import urllib2
-lst = list(itertools.product([0, 1], repeat=16))
-
-
-# Esta funcion sera la que realice las peticiones html introduciendo el cromosoma como parametro
 
 
 def getfitness(chromosome):
+    """
+    FUNCIÓN DE PETICIÓN DE EVALUACIÓN A LA PÁGINA OFRECIDA POR EL ENUNCIADO DE LA PRÁCTICA
+    :param chromosome: Cromosoma a analizar
+    :return:
+    """
     petition = "http://163.117.164.230/age/?f=test&c=" + chromosome
     return urllib2.urlopen(petition).read()
-
-
-# print getfitness(bina)'''
 
 
 def add(x, y):
@@ -42,6 +39,8 @@ def add(x, y):
             result = '1' + result
 
         return result.zfill(maxlen)
+
+
 bina = '0000000000000000000000000000000000000000000000000000000000000000'
 anterior = 0
 aux = 0

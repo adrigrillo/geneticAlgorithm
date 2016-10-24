@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9964ecb2-f7da-4a72-9f6a-5cd3d1e3e817" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crossMutation.py" afterPath="$PROJECT_DIR$/crossMutation.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataChecker.py" afterPath="$PROJECT_DIR$/dataChecker.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/generator.py" afterPath="$PROJECT_DIR$/generator.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tester.py" afterPath="$PROJECT_DIR$/tester.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bruteforce.py" afterPath="$PROJECT_DIR$/bruteforce.py" />
     </list>
     <ignored path="SmartCitiesOptimization.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -19,9 +16,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/SmartCitiesOptimization$bruteforce.coverage" NAME="bruteforce Coverage Results" MODIFIED="1477335455688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/SmartCitiesOptimization$bruteforce.coverage" NAME="bruteforce Coverage Results" MODIFIED="1477335762877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/SmartCitiesOptimization$main.coverage" NAME="main Coverage Results" MODIFIED="1477133857938" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/SmartCitiesOptimization$exec.coverage" NAME="exec Coverage Results" MODIFIED="1477335461514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/SmartCitiesOptimization$exec.coverage" NAME="exec Coverage Results" MODIFIED="1477335702054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -35,8 +32,8 @@
       <file leaf-file-name="tester.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tester.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="423">
-              <caret line="53" column="12" selection-start-line="53" selection-start-column="12" selection-end-line="53" selection-end-column="12" />
+            <state relative-caret-position="204">
+              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="16" selection-end-column="7" />
               <folding>
                 <element signature="e#46#60#0" expanded="true" />
               </folding>
@@ -70,7 +67,7 @@
             <state relative-caret-position="595">
               <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
               <folding>
-                <element signature="e#48#71#0" expanded="true" />
+                <marker date="1477335005790" expanded="true" signature="48:151" ph="import ..." />
               </folding>
             </state>
           </provider>
@@ -98,11 +95,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="exec.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="exec.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/exec.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="86" selection-start-line="8" selection-start-column="86" selection-end-line="8" selection-end-column="86" />
+            <state relative-caret-position="153">
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bruteforce.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bruteforce.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -140,7 +147,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/bruteforce.py" />
         <option value="$PROJECT_DIR$/tournament.py" />
         <option value="$PROJECT_DIR$/dataSaver.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
@@ -151,6 +157,7 @@
         <option value="$PROJECT_DIR$/dataChecker.py" />
         <option value="$PROJECT_DIR$/generator.py" />
         <option value="$PROJECT_DIR$/tester.py" />
+        <option value="$PROJECT_DIR$/bruteforce.py" />
       </list>
     </option>
   </component>
@@ -334,7 +341,7 @@
       </FILE-GROUP>
     </UpdatedFiles>
   </component>
-  <component name="RunManager" selected="Python.exec">
+  <component name="RunManager" selected="Python.bruteforce">
     <configuration default="false" name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -736,8 +743,8 @@
     </list>
     <recent_temporary>
       <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Python.exec" />
-        <item index="1" class="java.lang.String" itemvalue="Python.bruteforce" />
+        <item index="0" class="java.lang.String" itemvalue="Python.bruteforce" />
+        <item index="1" class="java.lang.String" itemvalue="Python.exec" />
         <item index="2" class="java.lang.String" itemvalue="Python.main" />
       </list>
     </recent_temporary>
@@ -781,7 +788,7 @@
       <workItem from="1477133754463" duration="5612000" />
       <workItem from="1477151069465" duration="305000" />
       <workItem from="1477154611551" duration="778000" />
-      <workItem from="1477334158669" duration="1404000" />
+      <workItem from="1477334158669" duration="1662000" />
     </task>
     <task id="LOCAL-00001" summary="Ver que falla en la iteracion 51">
       <created>1475012469857</created>
@@ -958,11 +965,18 @@
       <option name="project" value="LOCAL" />
       <updated>1477334919413</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Comentadas funciones">
+      <created>1477335578002</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1477335578002</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28922000" />
+    <option name="totallyTimeSpent" value="29180000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1013,7 +1027,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Ver que falla en la iteracion 51" />
     <MESSAGE value="Comprobando" />
     <MESSAGE value="El error está en que la reproducción elimina dos elementos de la poblacion por iteracion" />
     <MESSAGE value="Corregido error, pero depende de la ejecución se estanca. Habrá que ver tal cosa" />
@@ -1038,7 +1051,8 @@
     <MESSAGE value="Fixed problems y pruebas iniciales creadas" />
     <MESSAGE value="Problema con criterio de parada en ejecuciones consecutivas" />
     <MESSAGE value="Añadido lo de imprimir el número de peticiones" />
-    <option name="LAST_COMMIT_MESSAGE" value="Añadido lo de imprimir el número de peticiones" />
+    <MESSAGE value="Comentadas funciones" />
+    <option name="LAST_COMMIT_MESSAGE" value="Comentadas funciones" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1088,7 +1102,7 @@
         <state relative-caret-position="408">
           <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding>
-            <element signature="e#48#71#0" expanded="true" />
+            <marker date="1477335005790" expanded="true" signature="48:151" ph="import ..." />
           </folding>
         </state>
       </provider>
@@ -1134,7 +1148,7 @@
         <state relative-caret-position="459">
           <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding>
-            <element signature="e#48#71#0" expanded="true" />
+            <marker date="1477335005790" expanded="true" signature="48:151" ph="import ..." />
           </folding>
         </state>
       </provider>
@@ -1180,7 +1194,7 @@
         <state relative-caret-position="459">
           <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding>
-            <element signature="e#48#71#0" expanded="true" />
+            <marker date="1477335005790" expanded="true" signature="48:151" ph="import ..." />
           </folding>
         </state>
       </provider>
@@ -1226,7 +1240,7 @@
         <state relative-caret-position="425">
           <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding>
-            <element signature="e#48#71#0" expanded="true" />
+            <marker date="1477335005790" expanded="true" signature="48:151" ph="import ..." />
           </folding>
         </state>
       </provider>
@@ -1272,7 +1286,7 @@
         <state relative-caret-position="425">
           <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding>
-            <element signature="e#48#71#0" expanded="true" />
+            <marker date="1477335005790" expanded="true" signature="48:151" ph="import ..." />
           </folding>
         </state>
       </provider>
@@ -1318,7 +1332,7 @@
         <state relative-caret-position="255">
           <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
           <folding>
-            <element signature="e#48#71#0" expanded="true" />
+            <marker date="1477335005790" expanded="true" signature="48:151" ph="import ..." />
           </folding>
         </state>
       </provider>
@@ -1398,24 +1412,8 @@
         <state relative-caret-position="595">
           <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
           <folding>
-            <element signature="e#48#71#0" expanded="true" />
+            <marker date="1477335005790" expanded="true" signature="48:151" ph="import ..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bruteforce.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="40" column="18" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bruteforce original.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1445,16 +1443,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tester.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="53" column="12" selection-start-line="53" selection-start-column="12" selection-end-line="53" selection-end-column="12" />
-          <folding>
-            <element signature="e#46#60#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/salidas24-205741.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1465,8 +1453,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/exec.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="86" selection-start-line="8" selection-start-column="86" selection-end-line="8" selection-end-column="86" />
+        <state relative-caret-position="153">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tester.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="16" selection-end-column="7" />
+          <folding>
+            <element signature="e#46#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bruteforce original.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bruteforce.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
         </state>
       </provider>
