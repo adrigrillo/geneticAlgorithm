@@ -23,7 +23,7 @@ def evaluator(poblacion):
     """
     FUNCIÓN DE EVALUACIÓN, RECOGE A poblacion Y BUSCA EL MEJOR CON LA AYUDA DE getfitness
     :param poblacion: Poblacion a analizar
-    :return:
+    :return: Devuelve el mejor individuo de la poblacion y su fitness
     """
     aux = getfitness(poblacion[0])
     bina_aux = poblacion[0]
