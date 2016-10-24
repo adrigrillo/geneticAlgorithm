@@ -6,4 +6,4 @@ from main import *
     para ello se llamara a la funcion main de la siguiente forma:
     main(tamanoPoblacion = (valor), numGeneraciones = (valor), tasaMutacion = (valor), partipantesTorneo = (valor),
          parada = (True/False))"""
-main(tamanoPoblacion=100, numGeneraciones=300, tasaMutacion=100, partipantesTorneo=8, parada=True)
+main(tamanoPoblacion=100, numGeneraciones=300, tasaMutacion=97, partipantesTorneo=8, parada=True)
